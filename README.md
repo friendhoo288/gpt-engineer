@@ -4,6 +4,7 @@
 GPT Engineer is made to be easy to adapt, extend, and make your agent learn how you want your code to look. It generates an entire codebase based on a prompt. 
 
 
+
 ## Project philosophy
 - Simple to get value
 - Flexible and easy to add new own "AI steps". See `steps.py`.
@@ -30,6 +31,7 @@ GPT Engineer is made to be easy to adapt, extend, and make your agent learn how 
 - Check the generated files in my-new-project/workspace_clarified
 
 ### Limitations
+
 Implementing additional chain of thought prompting, e.g. [Reflexion](https://github.com/noahshinn024/reflexion), should be able to make it more reliable and not miss requested functionality in the main prompt.
 
 Contributors welcome! If you are unsure what to add, check out the ideas listed in the Projects part of the github repo.
@@ -43,7 +45,7 @@ Editing the identity, and evolving the main_prompt, is currently how you make th
 Each step in steps.py will have its communication history with GPT4 stored in the logs folder, and can be rerun with scripts/rerun_edited_message_logs.py.
 
 
-## Demo
+## Demo2
 
 
 
